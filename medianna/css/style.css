@@ -52,6 +52,9 @@ header img {
 	min-height: 64px;
 	padding: 1px;
 	margin: 5px;
+	background-image: url(https://atombond.github.io/medianna/images/fon.jpg);
+/*background-position: left bottom;
+background-repeat: repeat-x;*/
 }
 .page-navigation li {
 	float: left;
