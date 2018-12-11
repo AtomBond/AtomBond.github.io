@@ -1,0 +1,148 @@
+/*GENERAL STYLES*/
+body {
+font-family: Shonar Bongla, Century;
+font-size: 100%;
+margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 13px;
+  line-height: 1.3em;
+
+}
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+/*HEADER*/
+.header {
+padding: 10px 0;
+background-color: yellow;
+}
+.header h1 {
+  color: black;
+  text-align: left;
+  margin: 1px;
+}
+.header h2 {
+  color: black;
+  text-align: left;
+  margin: 1px;
+}
+header img {
+  display: block;
+  height: 75px;
+  padding-left: 200px;
+  padding-top: 10px;
+  position: absolute;
+}
+/*NAVIGATION*/
+.page-navigation {
+  background-color: black;
+  border-color: white;
+  min-height: 64px;
+  padding: 1px;
+  margin: 5px;
+}
+.page-navigation li {
+  float: left;
+  width: 100px;
+}
+.page-navigation a {
+  display: block;
+  color: white;
+  line-height: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+.page-navigation li a:hover {
+  color: black;
+  background-color: white;
+}
+
+/*LOGIN FON*/
+.login {
+  padding: 0px 0;
+  float: right;
+}
+.login input[tipe="text"],
+.login input[tipe='password'] {
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login input[type='submit'] {
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.login input[type='submit']:hover,
+button:hover {
+  background-color: black;
+  color: yellow;
+}
+.left-img img {
+float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  border: 3px  solid white;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.Line {
+  border:1px solid gray;
+}
+
+/* || header layout */
+
+
+main, header,  article, aside, section {
+  background-color: rgba(255,255,0,0.7);
+  padding: 1%;
+}
+
+h1 {
+  flex: 5;
+  text-transform: uppercase;
+}
+
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article, section {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+  color: yellow;
+  padding: 20px 0;
+  margin-top: 30px;
+}
