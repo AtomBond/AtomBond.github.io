@@ -116,6 +116,9 @@ h1 {
   flex: 5;
   text-transform: uppercase;
 }
+h3 {
+  text-align: justify;
+}
 
 
 /* || main layout */
