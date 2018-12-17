@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Form</title>
+    <title>AboutUs</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/2style.css">
-    <script type="php/script.php"></script>
+    <!--Bootstrap-->
+    <!-- Последняя компиляция и сжатый CSS -->  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Дополнение к теме -->  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Последняя компиляция и сжатый JavaScript -->  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
     <!--HEADER-->
@@ -15,11 +23,20 @@
       <img src="images/cinema.png" alt="a simple dove logo">
 
       <h1>MEDI@NNA</h1>
-      
+      <!--LOGIN FORM-->
+      <form action="#" class="login">
+        <input type="text" placeholder="LOGIN" required>
+        <input type="password" placeholder="PASSWORD" required>
+        <input type="submit" value="Sign In">
+      </form>
+      <!--/LOGIN FORM-->
       <h2>
       <small>ініціативна група</small>
       </h2>
-         
+   
+    </div>
+
+      
   </header>
   <!--/HEADER-->
   <!--NAVIGATION-->
@@ -41,36 +58,24 @@
   <div class="container">
 <main> 
     <section>
-          <h1>Залишити повідомлення»</h1>
-<form action="form.html" method="POST">
-    <div>Enter your name: <input type="text" name="name" placeholder="Enter your name"></div>
-    <div>Message: <textarea name="message" cols="20" rows="10"></textarea></div>
-    <input type="submit" name="submit" value="Send">
-</form>
-
-<?php
-save_message();
-$messages = get_messages();
-?>
-
-<div class="messages">
-    <?php foreach($messages as $message):?>
-    <div class="message">
-        <p>Name: <span class="name"><?php echo $message['name']?></span></php></p>
-        <p>Message: <span class="message"><?php echo $message['message']?></span></p>
-    </div><hr>
-    <?php endforeach;?>
+          <h1>ІСТОРІЯ «MEDI@NNA»</h1>
+<div class="Line">         
+<div class="left-img">
+    
+</div>    
 </div>
-	
+        
+  
     </section>
     <aside>
     <section>
           <h2>Favourite links</h2>
-          <a>Favourite link</a>
-          <a>Favourite link</a>
-          <a>Favourite link</a>
-          <a>Favourite link</a>
-
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+    
     </section>
     </aside>
 </main> 
@@ -84,39 +89,3 @@ $messages = get_messages();
   <!--FOOTER-->
   </body>
 </html>
-<?php
-
-function get_messages() {
-    /*return array(
-        array(
-                'name' => 'John',
-                'message' => 'Test message from John...'
-        ),
-        array(
-            'name' => 'Alice',
-            'message' => 'Test message from Alice...'
-        ),
-    );*/
-    $result = array();
-    $messages = file_get_contents('messages');
-    $messages = explode("---\n", $messages);
-
-    foreach ($messages as $message) {
-        $buf = explode("\n", $message);
-        $m = array('name' => $buf[0]);
-        unset($buf[0]);
-        $m['message'] = implode("\n", $buf);
-        $result[] = $m;
-    }
-    return $result;
-}
-
-function save_message() {
-    if (!isset($_POST['name']) or !isset($_POST['message']))
-        return;
-
-    $message = "---\n".
-               $_POST['name']."\n".
-               $_POST['message']."\n";
-    file_put_contents('messages', $message , FILE_APPEND | LOCK_EX);
-}
