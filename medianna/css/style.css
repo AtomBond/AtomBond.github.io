@@ -90,7 +90,7 @@ header img {
 	border: 1px solid black;
 	border-radius: 5px;
 }
-.login input[type='submit']:hover,
+.login input[type='text']:hover,
 button:hover {
 	background-color: black;
 	color: yellow;
