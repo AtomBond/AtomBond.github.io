@@ -318,10 +318,17 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+/*LOGO*/
 .logo img{
 padding: : 2px;
  width: 300px; 
  height: 100px;
+}
+.banner-info h1{
+  color: white;
+-webkit-text-stroke: 1px black;
+  /*color:#fff;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px yellow;*/
 }
 .img-thumbnail {
   display: inline-block;
