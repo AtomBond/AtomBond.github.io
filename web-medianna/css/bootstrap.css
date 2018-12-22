@@ -318,6 +318,11 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+.logo img{
+padding: : 2px;
+ width: 300px; 
+ height: 100px;
+}
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
