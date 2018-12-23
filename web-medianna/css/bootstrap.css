@@ -326,9 +326,9 @@ padding: : 2px;
 }
 .banner-info h1{
   color: white;
--webkit-text-stroke: 1px black;
-  /*color:#fff;
-  text-shadow:1px 1px 10px #fff, 1px 1px 10px yellow;*/
+-webkit-text-stroke: 2px black;
+  color:#fff;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px yellow;
 }
 .img-thumbnail {
   display: inline-block;
