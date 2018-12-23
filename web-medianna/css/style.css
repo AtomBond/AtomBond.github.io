@@ -682,13 +682,13 @@ padding: 23em 26em;
 	font-size: 1.4em;
 	text-transform: uppercase;
 } 
-a.b-home{
+/*a.b-home{
 	background:#736f72;
 	padding:0.8em 3em;
 	display:inline-block;
 	color:#FFF;
 	text-decoration:none;
-	margin-top:1em;
+	margin-top:1em;*/
 }
 a.b-home:hover{
 	background:#ffc000;
