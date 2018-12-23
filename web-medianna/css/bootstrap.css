@@ -328,7 +328,10 @@ padding: : 2px;
   color: white;
 -webkit-text-stroke: 2px black;
   color:#fff;
-  text-shadow:1px 1px 10px #fff, 1px 1px 10px yellow;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px black;
+}
+.banner-info a{
+  
 }
 .img-thumbnail {
   display: inline-block;

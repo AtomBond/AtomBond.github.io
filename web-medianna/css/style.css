@@ -39,7 +39,7 @@ body a{
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: #fff;
+	color: black;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -96,6 +96,21 @@ body a{
 	margin: 0em 0em 0.5em;
 	text-align:center;
 }
+/*HISTORY*/
+.left-img img {
+float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  border: 3px  solid white;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.text-history p{
+	font-size: 20px;
+	text-align: justify;
+}
+.Line {
+  border:1px solid gray;
+}
 
 .btn {
 	border: none;
@@ -133,7 +148,7 @@ body a{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background:#b6bf00;
+	background:#FFA500;
 }
 .btn-1c:hover,
 .btn-1c:active {
@@ -146,14 +161,14 @@ body a{
 /*----*/
 .btn1 {
 	background: #736f72;
-	color: #fff;
+	color: white;
 	z-index: 1;
 	padding: 0.5em 1.5em;
 	font-size: 1.6em;
 	font-weight: 700;
 }
 .btn-1d:after {
-	background: #fff ;
+	background: #FFA500;
 	width: 0%;
 	height: 100%;
 	top: 0;
@@ -161,7 +176,7 @@ body a{
 }
 .btn-1d:hover,
 .btn-1d:active {
-	color:#736f72;
+	color:black;
 }
 .content-top {
 	position: relative;
