@@ -1396,9 +1396,11 @@ address {
 	height: 151px;
 	padding-left: 0em;
 }
-.lante h6 {
-	font-size: 1.3em;
-	font-weight: 600;
-	color: #898688;
-	margin: 1em 0;
-}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
