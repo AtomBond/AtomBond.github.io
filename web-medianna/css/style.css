@@ -1396,4 +1396,9 @@ address {
 	height: 151px;
 	padding-left: 0em;
 }
+.lante h6 {
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #898688;
+	margin: 1em 0;
 }
