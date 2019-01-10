@@ -101,15 +101,9 @@ body a{
 float:left; /* Выравнивание по левому краю */
   margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
   border: 3px  solid white;
-  border-radius: 10px;
-  margin-top: 30px;
-}
-.text-history p{
-	font-size: 20px;
-	text-align: justify;
-}
-.Line {
-  border:1px solid gray;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-left: 65px;
 }
 
 .btn {
@@ -500,7 +494,8 @@ strong {
 	color: #999;
 	line-height: 1.8em;
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 18px;
+	text-align: justify;
 }
 .contact a:hover{	
 	color:#ffc000;
