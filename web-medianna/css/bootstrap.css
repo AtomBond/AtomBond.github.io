@@ -325,6 +325,7 @@ padding: : 2px;
  height: 100px;
 }
 .imglogo img {
+  padding: : 2px;
   width: 300px;
   float: right;
  }
