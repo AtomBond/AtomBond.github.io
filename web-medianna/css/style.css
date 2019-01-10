@@ -1396,4 +1396,6 @@ address {
 	height: 151px;
 	padding-left: 0em;
 }
-
+.imglogo img {
+	width: 100px;
+ }
