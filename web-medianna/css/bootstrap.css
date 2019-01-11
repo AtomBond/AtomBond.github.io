@@ -327,8 +327,8 @@ padding: : 2px;
 .imglogo img {
   width: 300px;
   float: right;
-  margin: 15px;
-  display: flex;
+  display: block;
+  padding-top: 20.15px;
  }
 .banner-info h1{
   color: white;
