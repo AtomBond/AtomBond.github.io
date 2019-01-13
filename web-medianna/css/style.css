@@ -105,6 +105,9 @@ float:left; /* Выравнивание по левому краю */
   margin-top: 10px;
   padding-left: 65px;
 }
+.btn-warning {
+  margin-top: 10px;
+  padding-left: 65px;}
 
 .btn {
 	border: none;
