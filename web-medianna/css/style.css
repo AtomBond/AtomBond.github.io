@@ -105,10 +105,12 @@ float:left; /* Выравнивание по левому краю */
   margin-top: 10px;
   padding-left: 65px;
 }
-.btn-warning {
-  margin-top: 10px;
-  padding-left: 65px;}
-
+.btn-back  {
+  padding-left: 50px;
+  float:left;
+  margin-top: 0px;
+  margin: 0px 7px 100px 0;
+}
 .btn {
 	border: none;
 	font-family: inherit;
