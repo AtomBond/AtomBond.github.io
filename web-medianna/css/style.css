@@ -186,6 +186,7 @@ float:left; /* Выравнивание по левому краю */
 	padding: 3em 0em;
 	position: absolute;
 	top:-3em;
+	max-width: 1140px;
 }
 .lente h4 {
 	font-weight: 700;
