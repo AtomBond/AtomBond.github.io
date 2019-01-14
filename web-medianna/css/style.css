@@ -179,13 +179,13 @@ float:left; /* Выравнивание по левому краю */
 }
 .content-top {
 	position: relative;
-	min-height: 68.5em;
+	min-height: 80em;
 }
 .content {
 	background: #fff;
-	padding: 3em 1em;
+	padding: 3em 0em;
 	position: absolute;
-	top:-10em;
+	top:-3em;
 }
 .lente h4 {
 	font-weight: 700;
