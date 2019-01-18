@@ -470,8 +470,7 @@ i.bell {
 	font-weight: 500;
 }
 .contact-left p {
-	width: 92%;
-	margin: 0 auto;
+	width: 92  auto;
 	color: #999;
 	line-height: 1.8em;
 	font-weight: 400;
