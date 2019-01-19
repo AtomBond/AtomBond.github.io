@@ -97,13 +97,26 @@ body a{
 	text-align:center;
 }
 /*HISTORY*/
-.left-img img {
+.history {
+width: 100%;
+max-width: 1140px;
+}
+.history img {
 float:left; /* Выравнивание по левому краю */
   margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
   border: 3px  solid white;
   border-radius: 20px;
   margin-top: 10px;
-  padding-left: 65px;
+  padding-left: 20px;
+  width: 500px;
+}
+.history p {
+	margin: 20px;
+	font-size: 18px;
+
+}
+.history a {
+	margin: 20px;
 }
 .btn-back  {
   padding-left: 70px;
@@ -332,6 +345,7 @@ i.bell {
 	background: #ffc000;
 	padding: 6em 0 2em;
 	text-align: center;
+	position: relative;
 }
 .footer p {
 	color: #000;
