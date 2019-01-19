@@ -334,8 +334,8 @@ padding: : 2px;
   color: white;
 -webkit-text-stroke: 0,8px white;
   color:#fff;
-  text-shadow:1px 1px 10px #fff, 1px 1px 10px black;
-  
+  text-shadow:1px 1px 10px gray, 1px 1px 10px black;
+
 }
 .banner-info a{
   
