@@ -251,7 +251,7 @@ float:left; /* Выравнивание по левому краю */
 	font-weight: 400;
 }
 .sti img {
-	border-style: solid;
+	border-style: double;
 }
 .link {
 	background: url(../images/righ.png) no-repeat -1px 1px;
