@@ -81,7 +81,7 @@ body a{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
-	min-height:150px;	
+	min-height:200px;	
 }
 .banner-info {
 	padding: 14em 0 0em;
@@ -200,7 +200,7 @@ float:left; /* Выравнивание по левому краю */
 	position: absolute;
 	top:-3em;
 	max-width: 1140px;
-	min-height: 100%;
+	padding-bottom: 90px;
 }
 .lente h4 {
 	font-weight: 700;
